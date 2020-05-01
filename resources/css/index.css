@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: darkred;
+}
+
+a:hover {
+    color: darkred;
+}
+
+h1 {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.pageTop {
+    width: 100%;
+    background: #ab2927;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.topLogo {
+    width: 500px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 55%;
+}
+
+.leftBlock {
+    width: 25%;
+    background: white;
+}
+
+.centerBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+.mainPhotoWrap {
+    display: flex;
+    margin-top: 30px;
+}
+
+.image-container {
+    width: 50%;
+    cursor: pointer;
+}
+
+.photo {
+    width: 90%;
+}
+
+.photoText {
+    font-size: 14px;
+    text-align: center;
+    color: #3a1700;
+}
+
+.modal-lg {
+    max-width: 60%;
+}
+
+.photoIDModal {
+    width: 100%;
+}
+
+.photoTextModal {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 2px;
+    color: #3a1700;
+}
+
+.navigation {
+    margin-top: 10px;
+    color: darkred;
+}
+
+
+
+.footer {
+    width: 100%;
+    background: #ab2927;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+
+.map {
+    text-align: center;
+    overflow: hidden;
+}
+
+.mapMini {
+    display: none;
+}
+
+.list {
+    text-align: left;
+}
+.mainTextList {
+    margin-top: 5px;
+    margin-left: 20px;
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.mainTextList a {
+    text-decoration: none;
+    color: #3a1700;
+}
+
+.mainTextList a:hover {
+    color: darkred;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .topLogo {
+        width: 300px;
+    }
+
+    .map {
+        display: none;
+    }
+
+    .mapMini {
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
