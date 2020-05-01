@@ -145,6 +145,11 @@ h1 {
     text-decoration: underline;
 }
 
+.location {
+    width: 600px;
+    margin-top: 10px;
+}
+
 @media (max-width: 768px) {
     .topLogo {
         width: 300px;
