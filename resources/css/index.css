@@ -150,6 +150,11 @@ h1 {
     margin-top: 10px;
 }
 
+.pdfCatalog {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
 @media (max-width: 768px) {
     .topLogo {
         width: 300px;
