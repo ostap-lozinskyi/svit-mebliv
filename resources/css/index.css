@@ -52,11 +52,11 @@ h1 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 55%;
+    width: 65%;
 }
 
 .leftBlock {
-    width: 25%;
+    width: 20%;
     background: white;
 }
 
@@ -64,7 +64,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 75%;
+    width: 80%;
     padding-bottom: 10px;
     text-align: center;
     font-size: 30px;
