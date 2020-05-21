@@ -53,7 +53,7 @@ h1 {
     flex-direction: row;
     justify-content: space-between;
     width: 65%;
-    min-height: 500px;
+    min-height: 300px;
 }
 
 .leftBlock {
@@ -277,7 +277,7 @@ footer p{
     }
 
     .mainTextList {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .map {
