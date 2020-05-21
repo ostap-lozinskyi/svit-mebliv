@@ -53,6 +53,7 @@ h1 {
     flex-direction: row;
     justify-content: space-between;
     width: 65%;
+    min-height: 500px;
 }
 
 .leftBlock {
