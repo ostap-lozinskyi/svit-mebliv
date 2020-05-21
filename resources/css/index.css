@@ -164,9 +164,78 @@ h1 {
     margin-left: 20px;
 }
 
+/* menu */
+.menu {
+    display: none;
+}
+.menu-trigger {
+    display: block;
+    width: 30px;
+    height: 17px;
+    background: url("../../resources/images/menu.png");
+    position: absolute;
+    left: 46%;
+    top: 115px;
+}
+.menu-close {
+    display: block;
+    width: 28px;
+    height: 28px;
+    background: url("../../resources/images/close.png");
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    z-index: 100;
+}
+.menu-popup {
+    display: none;
+    background: #f2f2ef;
+    position: absolute;
+    left: 2%;
+    right: 2%;
+    top: 36px;
+    padding: 30px;
+    z-index: 9999;
+    opacity: 0.95;
+    border-radius: 18px;
+    border: 1px solid #664d46;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.menu-popup ul {
+    margin: 0;
+    padding: 0;
+}
+.menu-popup li {
+    list-style: none;
+    margin: 10px 0;
+    padding: 0;
+}
+
+.body_pointer * {
+    cursor: pointer;
+}
+
+/* menu end */
+
 @media (max-width: 768px) {
     .topLogo {
         width: 300px;
+    }
+
+    .menu {
+        display: inherit;
+    }
+
+    .main {
+        margin-top: 20px;
+    }
+
+    .leftBlock {
+        display: none;
+    }
+
+    .centerBlock {
+        width: 100%;
     }
 
     .map {
