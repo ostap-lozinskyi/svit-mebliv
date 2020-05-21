@@ -113,13 +113,24 @@ h1 {
 }
 
 
-.footer {
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     background: #ab2927;
-    margin: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     color: white;
     text-align: center;
     font-size: 16px;
+}
+
+footer p{
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .map {
@@ -165,6 +176,7 @@ h1 {
 /* menu */
 .menu {
     display: none;
+    text-align: center;
 }
 
 .menu-trigger {
@@ -229,9 +241,12 @@ h1 {
         display: inherit;
     }
 
+    .navigation {
+        margin-top: 50px;
+    }
+
     .main {
         width: 100%;
-        margin-top: 20px;
     }
 
     .leftBlock {
@@ -246,6 +261,10 @@ h1 {
         font-size: 16px;
     }
 
+    .mainTextList {
+        font-size: 18px;
+    }
+
     .map {
         display: none;
     }
@@ -255,4 +274,6 @@ h1 {
         text-align: center;
         margin-bottom: 10px;
     }
+
+
 }
