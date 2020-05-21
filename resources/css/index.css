@@ -232,6 +232,11 @@ footer p{
 
 /* menu end */
 
+.fileDownload {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
 @media (max-width: 768px) {
     .topLogo {
         width: 300px;
