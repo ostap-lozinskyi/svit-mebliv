@@ -190,16 +190,10 @@ footer a {
     margin-top: 10px;
 }
 
-.pdfCatalog {
-    width: 100%;
-    height: 100%;
-    margin-top: 10px;
-    margin-left: 20px;
-}
-
 .fileDownload {
     font-size: 14px;
     text-decoration: underline;
+    margin: 10px;
 }
 
 .displayMobile {
