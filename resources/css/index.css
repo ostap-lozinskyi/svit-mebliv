@@ -38,6 +38,10 @@ h1 {
     font-size: 22px;
 }
 
+object {
+    margin-bottom: 20px;
+}
+
 .pageTop {
     width: 100%;
     background: #ab2927;
@@ -195,6 +199,7 @@ footer a {
 
 .fileDownload {
     font-size: 14px;
+    text-decoration: underline;
 }
 
 .displayMobile {
@@ -289,6 +294,8 @@ footer a {
 
     .navigation {
         margin-top: 50px;
+        margin-bottom: 20px;
+        margin-left: 20px;
         font-size: 18px;
     }
 
