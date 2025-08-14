@@ -126,6 +126,12 @@ object {
 
 .navigation {
     margin-top: 10px;
+    color: black;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.navigation a {
     color: darkred;
 }
 
@@ -186,7 +192,7 @@ footer a {
 }
 
 .location {
-    width: 600px;
+    width: 97%;
     margin-top: 10px;
 }
 
@@ -287,10 +293,10 @@ footer a {
     }
 
     .navigation {
-        margin-top: 50px;
-        margin-bottom: 20px;
+        margin-top: 5px;
+        margin-bottom: 10px;
         margin-left: 20px;
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .main {
